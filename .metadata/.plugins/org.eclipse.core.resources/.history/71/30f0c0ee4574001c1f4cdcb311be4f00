@@ -1,0 +1,18 @@
+package ternary;
+
+public class Maximum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+             int p = 10;
+              int q  = 25;
+              int r = 15;
+              int max;
+             max = (p>q)?(p>r?p:r):(q>r?q:r);
+             System.out.println(max);
+             
+           
+             
+	}
+
+}

@@ -1,0 +1,15 @@
+package ternary;
+
+public class Maximum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+             int p = 10, q  = 25,r = 15, max;
+             max = (p>q)?(p>r?p:r):(q>r?q:r);
+             System.out.println("...",+max);
+             
+           
+             
+	}
+
+}
